@@ -223,6 +223,16 @@ export const Calendar = styled.aside`
     width: 100%;
   }
 
+  .DayPicker-NavButton {
+    color: #999591 !important;
+  }
+
+  .DayPicker-NavButton--prev {
+    right: auto;
+    left: 1.5em;
+    margin-right: 0;
+  }
+
   .DayPicker-Month {
     border-collapse: separate;
     border-spacing: 8px;
