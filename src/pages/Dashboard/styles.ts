@@ -209,12 +209,13 @@ export const Calendar = styled.aside`
   width: 380px;
 
   .DayPicker {
-    background: #28262e;
     border-radius: 10px;
   }
 
   .DayPicker-wrapper {
     padding-bottom: 0;
+    background: #3e3b47;
+    border-radius: 10px;
   }
 
   .DayPicker,
@@ -225,7 +226,20 @@ export const Calendar = styled.aside`
   .DayPicker-Month {
     border-collapse: separate;
     border-spacing: 8px;
-    margin: 16px;
+    margin: 16px 0 0 0;
+    padding: 16px;
+    background-color: #28262e;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .DayPicker-Caption {
+    margin-bottom: 1em;
+    padding: 0 1em;
+    color: #f4ede8;
+
+    > div {
+      text-align: center;
+    }
   }
 
   .DayPicker-Day {
